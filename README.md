@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+## AI Tools Used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I used **ChatGPT** to help speed up UI structure and layout decisions. Initially, I tried integrating the `shadcn/ui` component library, but ran into some setup issues which took additional time. Due to this, I decided to fall back to inline styles, which are simpler and more familiar for me.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Design Decisions
 
-### `npm start`
+The UI is intentionally minimal, focusing on functionality and clarity:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Each league is displayed in a card format with clear separation between elements.
+- Cards are clickable and provide instant feedback by opening the badge image directly under the clicked item, improving user experience.
+- I considered implementing a 3x3 grid layout but opted for a more adaptive layout with conditional badge rendering inside the list. This ensures the badge remains visually connected to the corresponding league.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Time Management Notes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I acknowledge that I missed the ideal time window for submitting this assignment. This was due to needing to respond to and deliver a small urgent fix for a previous project. Additionally, I spent extra time trying to configure a new UI library (`shadcn`) which I hadn’t worked with before. Once I reverted to inline styling, the development process sped up again.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you for your understanding.
